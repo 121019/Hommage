@@ -1015,7 +1015,7 @@ const JohnnyHallydayTribute = () => {
         <ul>
           <li className="concert-card">
             <img
-              src="public/jhPalaisDesSports82.jpg"
+              src="jhPalaisDesSports82.jpg"
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1034,7 +1034,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src=" public/jhZenith84.jpg"
+              src="jhZenith84.jpg"
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1053,7 +1053,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src="public/jhBercy90.jpg "
+              src="jhBercy90.jpg "
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1073,7 +1073,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src="public/jhParcDesPrinces93.jpg "
+              src="jhParcDesPrinces93.jpg "
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1093,7 +1093,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src="public/jhLorada1995.jpg "
+              src="jhLorada1995.jpg "
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1113,7 +1113,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src="public/jhStadeDeFrance98.jpg "
+              src="jhStadeDeFrance98.jpg "
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1133,7 +1133,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src="public/jhOlympia2000.jpg "
+              src="jhOlympia2000.jpg "
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1153,7 +1153,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src="public/jhBercy2003.jpg "
+              src="jhBercy2003.jpg "
               alt="Description de l'image"
               className="concert-image"
             />
@@ -1173,7 +1173,7 @@ const JohnnyHallydayTribute = () => {
           </li>
           <li className="concert-card">
             <img
-              src="public/jhBercy2006.jpg "
+              src="jhBercy2006.jpg "
               alt="Description de l'image"
               className="concert-image"
             />
