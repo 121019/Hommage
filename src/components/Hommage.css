@@ -33,7 +33,7 @@ h2 {
   text-indent: 4rem;
   margin-bottom: 2rem;
   line-height: 1.2;
-  color: white;
+  color: ghostwhite;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -48,7 +48,7 @@ h2 {
   padding: 10px 0;
   animation: defilement 50s linear infinite;
   margin-top: 5rem;
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
 }
 
 .photos img {
@@ -58,9 +58,10 @@ h2 {
 }
 
 .photos-container {
-  overflow: hidden; /* Empêche les débordements horizontaux */
-  width: 100%; /* S'assure que le conteneur prend toute la largeur */
-  margin: auto; /* Centre le conteneur */
+  /*bandeau photos*/
+  overflow: hidden; /* empêche débordements horizontaux */
+  width: 100%; /* bandeau prend toute la largeur */
+  margin: auto; /* centrer conteneur */
 }
 
 @keyframes defilement {
@@ -74,21 +75,19 @@ h2 {
 
 .concerts h2 {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 4rem;
 }
 
 .concerts ul {
-  list-style-type: none;
-  padding-left: 0;
-  column-count: 2;
-  column-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
 }
 
 .concerts ul li {
-  margin-bottom: 2rem;
   text-align: center;
-  margin-top: 2.5rem;
   font-size: 1.5rem;
 }
 
@@ -98,6 +97,21 @@ h2 {
   font-weight: bold;
 }
 
+.concert-image {
+  width: 28vh;
+  height: 16vh;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.concert-card {
+  background: rgba(255, 254, 254, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 1rem 2rem rgba(4, 4, 4, 6);
+}
+
 .concerts ul li a:hover {
   text-decoration: underline;
 }
@@ -105,7 +119,8 @@ h2 {
 footer {
   text-align: center;
   margin-top: 4rem;
-  font-size: 0.9em;
+  margin-bottom: 2rem;
+  font-size: 1rem;
   color: #666;
 }
 
@@ -115,5 +130,17 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .concerts ul {
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes  sur tablette */
+  }
+}
+
+@media (max-width: 480px) {
+  .concerts ul {
+    grid-template-columns: 1fr; /* 1 colonne sur mobile */
+  }
 }

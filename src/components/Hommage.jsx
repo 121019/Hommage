@@ -43,7 +43,7 @@ const JohnnyHallydayTribute = () => {
           culturel, un symbole de liberté et de passion. Son héritage continue
           d'inspirer des millions de fans à travers le monde.
         </p>
-        <div class="photos-container">
+        <div className="photos-container">
           <div className="photos">
             <img src="jh1.jpg" alt="Johnny Hallyday" />
             <img src="jh2.jpg" alt="Johnny Hallyday" />
@@ -1013,83 +1013,180 @@ const JohnnyHallydayTribute = () => {
       <div className="concerts">
         <h2>Quelques concerts légendaires de Johnny Hallyday </h2>
         <ul>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhPalaisDesSports82.jpg"
+              alt="Description de l'image"
+              className="concert-image"
+            />
             <a
               href="https://www.youtube.com/watch?v=ARyUjKTZ6-c"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Live Palais des sports 1982
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src=" public/jhZenith84.jpg"
+              alt="Description de l'image"
+              className="concert-image"
+            />
             <a
               href="https://www.youtube.com/watch?v=UE9mQ7evL4s"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Le Zénith 1984
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhBercy90.jpg "
+              alt="Description de l'image"
+              className="concert-image"
+            />
+
             <a
               href="https://www.youtube.com/watch?v=7CbxLje8ZRo"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Bercy 1990
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhParcDesPrinces93.jpg "
+              alt="Description de l'image"
+              className="concert-image"
+            />
+
             <a
-              href="https://www.youtube.com/watch?v=i1MnInV19yI&list=PLjxdJSptwo-qZOVSNQziG7UffwvZh4yAG"
+              href="https://www.youtube.com/watch?v=guGB4AkC38c"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Live Parc des Princes 1993
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhLorada1995.jpg "
+              alt="Description de l'image"
+              className="concert-image"
+            />
+
             <a
               href="https://www.youtube.com/watch?v=TuJEq2e12ZU"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Lorada Tour 1995
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhStadeDeFrance98.jpg "
+              alt="Description de l'image"
+              className="concert-image"
+            />
+
             <a
               href="https://www.youtube.com/watch?v=YDcAQD-nCR8"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Stade de France 1998
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhOlympia2000.jpg "
+              alt="Description de l'image"
+              className="concert-image"
+            />
+
             <a
               href="https://www.youtube.com/watch?v=L-r6KfPTSqU"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Olympia 2000
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhBercy2003.jpg "
+              alt="Description de l'image"
+              className="concert-image"
+            />
+
             <a
               href="https://www.youtube.com/watch?v=O-M2eeUef3Q"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Live Bercy 2003
             </a>
           </li>
-          <li>
+          <li className="concert-card">
+            <img
+              src="public/jhBercy2006.jpg "
+              alt="Description de l'image"
+              className="concert-image"
+            />
+
             <a
               href="https://www.youtube.com/watch?v=M-NCDqUzhpI"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: "2rem",
+                marginBottom: "3rem",
+              }}
             >
               Johnny Hallyday - Live Bercy 2006
             </a>
@@ -1097,29 +1194,29 @@ const JohnnyHallydayTribute = () => {
         </ul>
       </div>
       <footer>
-        Source :{" "}
+        Source :
         <a
           href="https://fr.wikipedia.org/wiki/Johnny_Hallyday"
           target="_blank"
           rel="noopener noreferrer"
         >
           Wikipédia
-        </a>{" "}
-        |{" "}
+        </a>
         <a
           href="https://www.youtube.com/"
           target="_blank"
           rel="noopener noreferrer"
+          style={{ display: "inline-block", marginTop: "2rem" }}
         >
           YouTube
-        </a>{" "}
+        </a>
         <a
           href="https://www.gettyimages.fr/search/2/image?family=editorial&page=26&phrase=johnny%20hallyday&sort=mostpopular"
           target="_blank"
           rel="noopener noreferrer"
         >
           Gettyimages
-        </a>{" "}
+        </a>
       </footer>
     </>
   );
