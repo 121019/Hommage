@@ -1,9 +1,24 @@
 import React from "react";
 import "./Hommage.css";
+import jh23 from "/jh23.jpg";
 
 const JohnnyHallydayTribute = () => {
   return (
     <>
+      <img
+        src={jh23}
+        className="bodyjh_img"
+        alt="Fond d'écran Johnny Hallyday"
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          zIndex: -1,
+        }}
+      />
       <div className="title">
         <h1>Hommage à Johnny Hallyday</h1>
       </div>
@@ -28,43 +43,47 @@ const JohnnyHallydayTribute = () => {
           culturel, un symbole de liberté et de passion. Son héritage continue
           d'inspirer des millions de fans à travers le monde.
         </p>
-        <div className="photos">
-          <img src="jh1.jpg" alt="Johnny Hallyday" />
-          <img src="jh2.jpg" alt="Johnny Hallyday" />
-          <img src="jh3.jpg" alt="Johnny Hallyday" />
-          <img src="jh4.jpg" alt="Johnny Hallyday" />
-          <img src="jh5.jpg" alt="Johnny Hallyday" />
-          <img src="jh6.jpg" alt="Johnny Hallyday" />
-          <img src="jh7.jpg" alt="Johnny Hallyday" />
-          <img src="jh8.jpg" alt="Johnny Hallyday" />
-          <img src="jh9.jpg" alt="Johnny Hallyday" />
-          <img src="jh10.jpg" alt="Johnny Hallyday" />
-          <img src="jh11.jpg" alt="Johnny Hallyday" />
-          <img src="jh12.jpg" alt="Johnny Hallyday" />
-          <img src="jh13.jpg" alt="Johnny Hallyday" />
-          <img src="jh14.jpg" alt="Johnny Hallyday" />
-          <img src="jh15.jpg" alt="Johnny Hallyday" />
-          <img src="jh16.jpg" alt="Johnny Hallyday" />
-          <img src="jh17.jpg" alt="Johnny Hallyday" />
-          <img src="jh18.jpg" alt="Johnny Hallyday" />
-          <img src="jh19.jpg" alt="Johnny Hallyday" />
-          <img src="jh20.jpg" alt="Johnny Hallyday" />
-          <img src="jh21.jpg" alt="Johnny Hallyday" />
-          <img src="jh22.jpg" alt="Johnny Hallyday" />
-          <img src="jh23.jpg" alt="Johnny Hallyday" />
-          <img src="jh24.jpg" alt="Johnny Hallyday" />
-          <img src="jh25.jpg" alt="Johnny Hallyday" />
-          <img src="jh27.jpg" alt="Johnny Hallyday" />
-          <img src="jh28.jpg" alt="Johnny Hallyday" />
-          <img src="jh29.jpg" alt="Johnny Hallyday" />
-          <img src="jh30.jpg" alt="Johnny Hallyday" />
-          <img src="jh31.jpg" alt="Johnny Hallyday" />
-          <img src="jh32.jpg" alt="Johnny Hallyday" />
-          <img src="jh33.jpg" alt="Johnny Hallyday" />
-          <img src="jh35.jpg" alt="Johnny Hallyday" />
-          <img src="jh36.jpg" alt="Johnny Hallyday" />
-          <img src="jh37.jpg" alt="Johnny Hallyday" />
-          <img src="jh38.jpg" alt="Johnny Hallyday" />
+        <div class="photos-container">
+          <div className="photos">
+            <img src="jh1.jpg" alt="Johnny Hallyday" />
+            <img src="jh2.jpg" alt="Johnny Hallyday" />
+            <img src="jh3.jpg" alt="Johnny Hallyday" />
+            <img src="jh4.jpg" alt="Johnny Hallyday" />
+            <img src="jh5.jpg" alt="Johnny Hallyday" />
+            <img src="jh6.jpg" alt="Johnny Hallyday" />
+            <img src="jh7.jpg" alt="Johnny Hallyday" />
+            <img src="jh8.jpg" alt="Johnny Hallyday" />
+            <img src="jh9.jpg" alt="Johnny Hallyday" />
+            <img src="jh10.jpg" alt="Johnny Hallyday" />
+            <img src="jh11.jpg" alt="Johnny Hallyday" />
+            <img src="jh12.jpg" alt="Johnny Hallyday" />
+            <img src="jh13.jpg" alt="Johnny Hallyday" />
+            <img src="jh14.jpg" alt="Johnny Hallyday" />
+            <img src="jh15.jpg" alt="Johnny Hallyday" />
+            <img src="jh16.jpg" alt="Johnny Hallyday" />
+            <img src="jh17.jpg" alt="Johnny Hallyday" />
+            <img src="jh18.jpg" alt="Johnny Hallyday" />
+            <img src="jh19.jpg" alt="Johnny Hallyday" />
+            <img src="jh20.jpg" alt="Johnny Hallyday" />
+            <img src="jh21.jpg" alt="Johnny Hallyday" />
+            <img src="jh22.jpg" alt="Johnny Hallyday" />
+            <img src="jh23.jpg" alt="Johnny Hallyday" />
+            <img src="jh24.jpg" alt="Johnny Hallyday" />
+            <img src="jh25.jpg" alt="Johnny Hallyday" />
+            <img src="jh27.jpg" alt="Johnny Hallyday" />
+            <img src="jh28.jpg" alt="Johnny Hallyday" />
+            <img src="jh29.jpg" alt="Johnny Hallyday" />
+            <img src="jh30.jpg" alt="Johnny Hallyday" />
+            <img src="jh31.jpg" alt="Johnny Hallyday" />
+            <img src="jh32.jpg" alt="Johnny Hallyday" />
+            <img src="jh33.jpg" alt="Johnny Hallyday" />
+            <img src="jh35.jpg" alt="Johnny Hallyday" />
+            <img src="jh36.jpg" alt="Johnny Hallyday" />
+            <img src="jh37.jpg" alt="Johnny Hallyday" />
+            <img src="jh38.jpg" alt="Johnny Hallyday" />
+            <img src="jh39.jpg" alt="Johnny Hallyday" />
+            <img src="jh40.jpg" alt="Johnny Hallyday" />
+          </div>
         </div>
         <h2> Débuts musicaux (1957-1960)</h2>
         <p>
@@ -88,7 +107,7 @@ const JohnnyHallydayTribute = () => {
         </p>
         <p>
           Le 30 décembre 1959, Johnny participe à l'émission de radio Paris
-          cocktail, où il interprète Viens faire une partie. Sa performance
+          cocktail, où il interprète "Viens faire une partie". Sa performance
           impressionne les auteurs-compositeurs Jil et Jan, qui le présentent à
           Jacques Wolfsohn de la maison de disques Vogue, marquant ainsi le
           début de sa carrière discographique.

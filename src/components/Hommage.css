@@ -1,10 +1,5 @@
 body {
-  background-image: url("/jh23.jpg");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow-x: hidden;
+  margin: 0;
 }
 
 .title h1 {
@@ -19,7 +14,7 @@ h2 {
   margin-top: 5rem;
 }
 
-.title img {
+.title .img {
   margin: 0 auto;
   display: block;
   width: 20%;
@@ -50,23 +45,27 @@ h2 {
 
 .photos {
   display: flex;
-  justify-content: center;
   padding: 10px 0;
-  white-space: nowrap;
   animation: defilement 50s linear infinite;
   margin-top: 5rem;
   margin-bottom: 8rem;
 }
 
 .photos img {
-  width: 100vh;
+  width: auto;
   height: 20vh;
   border: 0.01rem solid #ccc;
 }
 
+.photos-container {
+  overflow: hidden; /* Empêche les débordements horizontaux */
+  width: 100%; /* S'assure que le conteneur prend toute la largeur */
+  margin: auto; /* Centre le conteneur */
+}
+
 @keyframes defilement {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-100%);
@@ -103,7 +102,7 @@ h2 {
   text-decoration: underline;
 }
 
- footer {
+footer {
   text-align: center;
   margin-top: 4rem;
   font-size: 0.9em;
